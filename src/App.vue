@@ -4,20 +4,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <div class="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
+    <div class="font-playfair text-48">Hello, World!</div>
+    <div class="font-source text-16">Hello, World!</div>
+  </div>
 </template>
 
 <style scoped>
